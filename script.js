@@ -1,0 +1,17 @@
+$(function(){
+    $('#nav-btns1').click(()=>{
+        $('#list1').toggleClass('open');
+        $('#list2').removeClass('open');
+        $('#list3').removeClass('open');
+    });
+    $('#nav-btns2').click(()=>{
+        $('#list2').toggleClass('open');
+        $('#list1').removeClass('open');
+        $('#list3').removeClass('open');
+    });
+    $('#nav-btns3').click(()=>{
+        $('#list3').toggleClass('open');
+        $('#list2').removeClass('open');
+        $('#list1').removeClass('open');
+    });
+})
